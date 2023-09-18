@@ -5,14 +5,14 @@
 const theme = {
     init: function () {
         console.log('liaison theme.js');
-        const themeButton = document.getElementById('theme-switch');
+        const themeButton = document.getElementById('linked');
         console.log(themeButton);
         themeButton.addEventListener('click', theme.handleThemeButtonclick);
     },
 
     //fonction qui permet de changement de theme
     handleThemeButtonclick: function (e) {
-        console.log('clic sur lune');
+        console.log('fiche recap');
         const body = document.querySelector('body');
 
         console.log(body);
