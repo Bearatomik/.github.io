@@ -8,14 +8,16 @@
   border:5rem;
 
 }
-.title {
-  font-display: flex;
-  align-content: center;
-  
+title {
+  width: 50px;
 }
 
-.header{
-  background-color: crimson;
+nav{
+  display: inline-block ; 
+  flex-direction: row;
+}
+style {
+margin: 20%;
 }
 
 .h1{
@@ -23,21 +25,22 @@
   font-size: 2em;
   margin: 2rem;
 }
+strong {
+flex :center;
+}
 
-
-.body {
+body {
   margin: 0;
 
 }
 
-.linked {
+linked {
   display: flex;
   flex-wrap: wrap;
 
 }
 
-.p {
-  line-height: 1.3;
-  background-color: green;
+p {
+  display :inline-block;
 }
 
